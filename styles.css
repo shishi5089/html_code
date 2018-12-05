@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+    background: antiquewhite;
+    font-family: 'Indie Flower', cursive;
+    color: teal;
+
+}
+
+table{
+    width: 40%;
+    margin: auto;
+    border: 1px darkgoldenrod solid;
+
+}
+
+th{
+    background: aliceblue;
+    text-align: left;
+    padding: 12px;
+    color: darkslategrey;
+
+}
+td{
+    border: 1px darkgoldenrod solid;
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+table , th , td{
+    border-collapse: collapse;
+}

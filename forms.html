@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        body{
+            background: burlywood;
+        }
+        form{
+            width: 30%;
+            margin: auto;
+            background: darksalmon;
+            border: 2px groove snow;
+            padding: 12px;
+        }
+        .x{
+            width: 100%;
+            margin-bottom: 12px;
+            padding-top: 6px;
+            padding-bottom: 8px;
+            padding-left: 8px;
+            box-sizing: border-box;
+        }
+        span{
+            color: darkolivegreen;
+            display: block;
+        }
+        p{
+            color: darkslategray;
+        }
+        button{
+            background: #388b6f;
+            margin-top: 18px;
+            border: none;
+            border-radius: 10px;
+            color: darkslategray;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<form action="">
+    <input class="x" type="text" placeholder="Enter Names" required><br>
+    <input class="x" type="email" placeholder="Enter Email" required><br>
+    <input class="x" type="password" placeholder="Enter Password" required><br>
+    <input class="x" type="date" placeholder="Enter Date Of Birth" required><br>
+    <input class="x" type="number" placeholder="Enter Age" min="18" max="150" required><br>
+    <span><input type="radio" name="gender" value="male" checked> Male</span>
+    <span><input type="radio" name="gender" value="female"> Female</span><br>
+
+
+  <select class="x" >
+    <option value="0">Select Course:</option>
+    <option value="1">Computer Science</option>
+    <option value="2">Medicine</option>
+    <option value="3">Engineering</option>
+    <option value="4">Education</option>
+
+  </select>
+    <br>
+    <p>Select Your Favorite Movie</p>
+    <span><input type="checkbox">Harry Potter </span>
+    <span><input type="checkbox">Wizard of Oz</span>
+    <span><input type="checkbox">Pocahontas</span>
+    <span><input type="checkbox">RobinHood </span>
+    <span><input type="checkbox">Game of Thrones</span>
+    <br>
+</span>
+    <button>Register</button>
+
+
+
+    
+    
+    
+</form>
+
+
+
+</body>
+</html>
